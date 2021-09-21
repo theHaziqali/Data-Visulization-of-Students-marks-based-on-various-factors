@@ -28,7 +28,8 @@ def Group_check(row):
                 E_passed.append(row[1])
         else:
             pass
-
+def Parental_Education(row):
+    pass
 filename = 'D:\VS code\.py code\Data Visulization of Students\'s marks based on various factors\kaggle student\'s data\StudentsPerformance.csv'
 with open(filename) as f:
     reader = csv.reader(f)
@@ -137,7 +138,7 @@ def Group_Based_Result():
     plt.legend()
     plt.show()
 ########################################################################
-#Gender_Ratio()
-#Gender_Based_Result()
+Gender_Ratio()
+Gender_Based_Result()
 Group_Ratio()
 Group_Based_Result()
